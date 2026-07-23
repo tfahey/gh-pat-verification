@@ -1,0 +1,16 @@
+{
+  "name": "gh-pat-verification",
+  "version": "1.0.0",
+  "description": "GitHub PAT verification tool to examine token attributes and scopes",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/test.js"
+  },
+  "keywords": ["github", "pat", "token", "verification"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
